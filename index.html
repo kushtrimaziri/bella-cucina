@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bella Cucina | Italian Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+    <a href="#" class="logo">Bella Cucina</a>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="#contact" class="nav-button">Book a Table</a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu">
+        ☰
+    </button>
+
+</nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h1>Authentic Italian Cuisine</h1>
+            <p>Fresh ingredients. Traditional recipes. Unforgettable taste.</p>
+            <a href="#menu">Explore Our Menu</a>
+        </section>
+
+        <section id="about" class="reveal">
+
+    <div class="about-container">
+
+        <div class="about-image">
+            <img
+                src="images/restaurant.jpg"
+                alt="Bella Cucina restaurant interior">
+        </div>
+
+        <div class="about-content">
+
+            <p class="section-label">OUR STORY</p>
+
+            <h2>Tradition Served With Passion</h2>
+
+            <p>
+                At Bella Cucina, we believe great food brings people together.
+                Our kitchen combines traditional Italian recipes with fresh,
+                locally sourced ingredients to create dishes full of flavor.
+            </p>
+
+            <p>
+                From handmade pasta to wood-fired pizza, every dish is prepared
+                with care and served with the warmth of Italian hospitality.
+            </p>
+
+            <a href="#menu" class="about-button">Discover Our Menu</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <section id="menu" class="reveal">
+
+    <div class="menu-header">
+        <p class="section-label">OUR MENU</p>
+        <h2>Our Favorite Dishes</h2>
+        <p>Traditional Italian flavors prepared with fresh ingredients.</p>
+    </div>
+
+    <div class="menu-grid">
+
+        <div class="menu-card">
+            <img
+                src="images/pizza.jpg"
+                alt="Margherita Pizza">
+
+            <div class="menu-card-content">
+                <div class="menu-title">
+                    <h3>Margherita Pizza</h3>
+                    <span>€9.50</span>
+                </div>
+
+                <p>
+                    Tomato sauce, fresh mozzarella, basil and extra virgin
+                    olive oil.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="menu-card">
+            <img
+                src="images/carbonara.jpg"
+                alt="Spaghetti Carbonara">
+
+            <div class="menu-card-content">
+                <div class="menu-title">
+                    <h3>Spaghetti Carbonara</h3>
+                    <span>€11.00</span>
+                </div>
+
+                <p>
+                    Homemade pasta with crispy pancetta, egg, parmesan and
+                    black pepper.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="menu-card">
+            <img
+                src="images/lasagna.jpg"
+                alt="Lasagna">
+
+            <div class="menu-card-content">
+                <div class="menu-title">
+                    <h3>Classic Lasagna</h3>
+                    <span>€12.00</span>
+                </div>
+
+                <p>
+                    Layers of pasta, beef ragu, creamy béchamel and melted
+                    parmesan.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="menu-card">
+            <img
+                src="images/risotto.jpg"
+                alt="Risotto">
+
+            <div class="menu-card-content">
+                <div class="menu-title">
+                    <h3>Mushroom Risotto</h3>
+                    <span>€10.50</span>
+                </div>
+
+                <p>
+                    Creamy Arborio rice cooked with wild mushrooms and
+                    parmesan.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="menu-card">
+            <img
+                src="images/pasta.jpg"
+                alt="Pasta">
+
+            <div class="menu-card-content">
+                <div class="menu-title">
+                    <h3>Penne Arrabbiata</h3>
+                    <span>€8.50</span>
+                </div>
+
+                <p>
+                    Penne pasta with spicy tomato sauce, garlic, chili and
+                    fresh parsley.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="menu-card">
+            <img
+                src="images/prosciutto-pizza.jpg"
+                alt="Pizza">
+
+            <div class="menu-card-content">
+                <div class="menu-title">
+                    <h3>Prosciutto Pizza</h3>
+                    <span>€13.00</span>
+                </div>
+
+                <p>
+                    Tomato, mozzarella, prosciutto, arugula and shaved
+                    parmesan.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+        <section id="gallery" class="reveal">
+
+    <div class="gallery-header">
+        <p class="section-label">OUR GALLERY</p>
+        <h2>A Taste of Bella Cucina</h2>
+        <p>
+            A glimpse into our food, atmosphere and Italian-inspired dining
+            experience.
+        </p>
+    </div>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">
+            <img
+                src="images/gallery-restaurant.jpg"
+                alt="Restaurant dining area">
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="images/gallery-pasta.jpg"
+                alt="Italian pasta">
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="images/gallery-pizza.jpg"
+                alt="Fresh pizza">
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="images/gallery-interior.jpg"
+                alt="Restaurant interior">
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="images/gallery-risotto.jpg"
+                alt="Italian risotto">
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="images/gallery-food.jpg"
+                alt="Italian food">
+        </div>
+
+    </div>
+
+</section>
+
+        <section id="contact" class="reveal">
+
+    <div class="contact-header">
+        <p class="section-label">GET IN TOUCH</p>
+        <h2>Reserve Your Table</h2>
+        <p>
+            Planning a special evening? Reserve your table and let us take
+            care of the rest.
+        </p>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Visit Bella Cucina</h3>
+
+            <p>
+                We'd love to welcome you. Come enjoy authentic Italian food
+                in a warm and relaxed atmosphere.
+            </p>
+
+            <div class="contact-detail">
+                <strong>📍 Address</strong>
+                <span>12 Main Street, Skopje</span>
+            </div>
+
+            <div class="contact-detail">
+                <strong>📞 Phone</strong>
+                <span>+389 70 123 456</span>
+            </div>
+
+            <div class="contact-detail">
+                <strong>✉️ Email</strong>
+                <span>hello@bellacucina.com</span>
+            </div>
+
+            <div class="opening-hours">
+
+                <h3>Opening Hours</h3>
+
+                <div class="hours-row">
+                    <span>Monday - Thursday</span>
+                    <span>11:00 - 23:00</span>
+                </div>
+
+                <div class="hours-row">
+                    <span>Friday - Saturday</span>
+                    <span>11:00 - 00:00</span>
+                </div>
+
+                <div class="hours-row">
+                    <span>Sunday</span>
+                    <span>12:00 - 22:00</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form class="reservation-form">
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Your email">
+                </div>
+
+            </div>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="Your phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Guests</label>
+
+                    <select id="guests">
+                        <option>1 Person</option>
+                        <option>2 People</option>
+                        <option>3 People</option>
+                        <option>4 People</option>
+                        <option>5 People</option>
+                        <option>6+ People</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date">
+                </div>
+
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <input type="time" id="time">
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Anything we should know?"></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">
+                Request Reservation
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Bella Cucina. All rights reserved.</p>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
